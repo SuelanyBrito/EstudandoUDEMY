@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"> 
+  <title> NOME DA PÁGINA </title>
+</head>
+
+<header> </header> -----> CABEÇALHO
+<body> </body>   -------> CORPO
+<footer> </footer> -----> RODAPÉ
+
+___________________________________
+
+Placeholder = É o nome escrito destro da caixa de formulário
+
+EXEMPLOS DE FORM NO ANGULAR MATERIAL
+
+<div class="example-container">
+  <mat-form-field>
+    <input matInput placeholder="Input">
+  </mat-form-field>
+
+  <mat-form-field>
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select placeholder="Select">
+      <mat-option value="option">Option</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <mat-form-field>
+    <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'">
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+  </mat-form-field>
+</div>
+
+____________________________________
+
+
+
