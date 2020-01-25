@@ -1,0 +1,21 @@
+3 formas de declarar códigos:
+
+INLINE:
+EX: <p style="color:red"> MEU TEXTO </p>
+
+TAG <style>:
+EX: 
+<style>
+  p{
+    color: red;
+  }
+</style>
+
+Importação/link
+ Ex: <link rel="styleheet" type="text/css" href="style.css">
+ 
+ 
+SIXTAXE
+seletor{
+    declarações:valor;
+}
