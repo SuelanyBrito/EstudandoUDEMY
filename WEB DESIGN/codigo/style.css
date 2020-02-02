@@ -1,0 +1,46 @@
+/* 
+seletor {
+    propriedade: valor;
+}
+*/
+
+p{
+    color: green;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+h1 {
+    color:#cf1414;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: coral;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: crimson;
+    height: 100px;
+}
+
+#div-esquerda{
+    background-color: darkgreen;
+    min-height: 200px;
+}
+
+#div-direita{
+    background-color: darkorange;
+    min-height: 30px;
+}
+
+footer{
+    background-color: darksalmon;
+    min-height: 50px;
+}
