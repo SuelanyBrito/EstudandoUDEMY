@@ -25,22 +25,40 @@ body {
     padding: 0;
 }
 
-header{
-    background-color: crimson;
+img{
+    width: 100px;
     height: 100px;
+}
+
+header{
+    background-color: #35b8b0;
+    height: 80px;
+    padding: 20px;
 }
 
 #div-esquerda{
     background-color: darkgreen;
     min-height: 200px;
+    width: 60%;
+    float: left;
 }
 
 #div-direita{
     background-color: darkorange;
-    min-height: 30px;
+    min-height: 200px;
+    width: 60%;
+    float: right;
 }
 
 footer{
+    clear:both;
     background-color: darksalmon;
     min-height: 50px;
+}
+
+
+.container{
+    width: 960px;
+    margin: auto;
+    
 }
