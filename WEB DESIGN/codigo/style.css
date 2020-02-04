@@ -4,25 +4,10 @@ seletor {
 }
 */
 
-p{
-    color: green;
-    font-size: 20px;
-    font-family: fantasy;
-}
-
-h1 {
-    color:#cf1414;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-color: coral;
-}
-
 *{
     margin: 0;
     padding: 0;
+    font-family: Helvetica, arial;
 }
 
 img{
@@ -31,34 +16,75 @@ img{
 }
 
 header{
+    height: 100px;
+    padding: 10px;
     background-color: #35b8b0;
-    height: 80px;
-    padding: 20px;
+    background-image: -moz-linear-gradient(#00a355,#7ad946);
+    background-image: -webkit-linear-gradient(#00a355,#7ad946);
 }
 
-#div-esquerda{
-    background-color: darkgreen;
-    min-height: 200px;
-    width: 60%;
+#principal{
+    background-image: url('music.jpg');
+    background-size: 100%;
+    min-height: 400px;
+    padding: 100px 0px 0px 0px;
+    clear: both;
+}
+
+#logo{
     float: left;
 }
 
-#div-direita{
-    background-color: darkorange;
-    min-height: 200px;
-    width: 60%;
+#menu{
     float: right;
+    margin-top: 40px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 20px;
+}
+
+#menu a:hover{
+    background-color: teal;
 }
 
 footer{
     clear:both;
-    background-color: darksalmon;
+    background-color: #35b8b0;
     min-height: 50px;
+    text-align: center;
+    padding: 10px;
+    background-image: -moz-linear-gradient(#00a355,#7ad946);
+    background-image: -webkit-linear-gradient(#00a355,#7ad946);
 }
 
+footer p {
+    color: black;
+    text-shadow: 0;
+
+}
 
 .container{
     width: 960px;
     margin: auto;
-    
+}
+
+.efeito{
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px 0 30px 0;
+}
+
+p{
+    color: white;
+}
+
+h1 {
+    color: #32cd32;
+    text-shadow: 3px 1px 1px #111111;
+    font-family: Helvetica, Arial;
+    text-align: center;
+    margin: 0 0 50px 0;
 }
